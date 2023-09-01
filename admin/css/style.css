@@ -1,0 +1,87 @@
+body {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="email"],
+input[type="email"],
+form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="email"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #002fff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.register {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.login {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.btn-back {
+    background-color: #0dbfeb;
+    color: white;
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
